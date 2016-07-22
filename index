@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BioMx Consulting</title>
+<style type="text/css">
+a {text-decoration: none}
+body
+{
+background-color:#ffffff;
+background-image:url('Fotor0125195636.JPG');
+background-size:980px 130px;
+background-repeat:no-repeat;
+padding-top:40px;
+}
+footer
+{ height: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  color: #98AFC7;}
+footer a
+{ color: #98AFC7;
+  text-decoration: none;
+  padding-bottom: 20px;}
+
+footer a:hover
+{ text-decoration: underline;
+  color: #121920;}
+
+ .readmore a
+{ color: #FFF;
+  text-shadow: 1px 1px #004C8C;}
+div
+{
+margin-left :0px;
+padding:20px 30px;
+background:#ffffff;
+width:600px;
+border-radius :25px;
+}
+div8
+{
+margin-left :0px;
+padding:20px 30px;
+background:#ffffff;
+width:900px;
+border-radius :25px;
+}
+div1
+{
+
+padding:10px 490px;
+background:#ffffff;
+width:900px;
+border-radius :25px;
+}
+
+#something:hover {background-color :#121920}
+
+div2
+{
+margin-left :390px;
+padding:10px 10px;
+background:ffffff;
+width:80px;
+border-radius:25px;
+}
+div3
+{
+padding:10px 10px;
+background:ffffff;
+width:80px;
+border-radius:25px;
+}
+
+div6
+{
+padding:10px 10px;
+background:ffffff;
+width:80px;
+border-radius:25px;
+}
+div4
+{
+padding:5px 5px;
+background:ffffff;
+width:80px;
+border-radius:25px;
+}
+#myH1
+{
+text-shadow:5px 5px 10px white ;
+}
+</style>
+
+</head>
+
+<body ><BR><BR><BR><BR><BR>
+<table >
+<tr>
+<td>
+<a href="file:///home/anup/Desktop/sbawab/cab">
+<div2 id='something'><font  size=4 color="#98AFC7"><b>HOME</b></font><a href=></div2>&nbsp;|&nbsp;<br>
+</a>
+</td>
+<td>
+<div3 id='something'><font  size=4 color="#98AFC7"><b>ABOUTUS</b></font></div3>&nbsp;|&nbsp;<br>
+</td>
+<td>
+<div3 id='something'><font  size=4 color="#98AFC7"><b>SERVICES</b></font></div3>&nbsp;|&nbsp;<br>
+</td>
+<td>
+<div3 id='something'><font  size=4 color="#98AFC7"><b> <!-- FOR --> CLIENTS</b></font></div3>&nbsp;|&nbsp;<br>
+</td>
+<td>
+<div6 id='something'><font  size=4 color="#98AFC7"><b>PROFILES</b></font></div6>&nbsp;|&nbsp;<br>
+</td>
+<td>
+<div6 id='something'><font  size=4 color="#98AFC7"><b> <!--VIEW -->OURWORK</b></font></div6>&nbsp;|&nbsp;<br>
+</td>
+<td>
+<div6 id='something'><font  size=4 color="#98AFC7"><b>CONTACTUS</b></font></div6>&nbsp;|&nbsp;<br>
+</td>
+</table>
+<br>
+
+<br>
+<br>
+<!--
+<link rel="stylesheet"
+type="text/css"
+href="NewFile.css"/>
+
+-->
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="stepcarousel.js">
+
+
+
+</script>
+
+<style type="text/css">
+
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 10px solid white;
+overflow: scroll; /*leave this value alone*/
+width: 960px; /*Width of Carousel Viewer itself*/
+height: 420px; /*Height should enough to fit largest content's height*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 10px; /*margin around each panel*/
+width: 960px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+
+</style>
+
+
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:true, moveby:1, pause:3000},
+	panelbehavior: {speed:500, wraparound:false, wrapbehavior:'slide', persist:true},
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['images/arrow_left.png', 50, 250], rightnav: ['images/arrow_right.png', -80, 250]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+
+</head>
+<body>
+
+<center>
+
+<div id="mygallery" class="stepcarousel">
+<div class="belt">
+
+<div class="panel">
+<img src="images/1.jpg" />
+</div>
+
+<div class="panel">
+<img src="images/2.jpg" />
+</div>
+
+<div class="panel">
+<img src="images/3.jpg" />
+</div>
+
+<div class="panel">
+<img src="images/4.jpg" />
+</div>
+
+
+
+</div>
+</div>
+
+
+<p id="mygallery-paginate" style="width: 250px; text-align:center">
+<img src="images/opencircle.png" data-over="images/graycircle.png" data-select="images/closedcircle.png" data-moveby="1" />
+</p>
+
+
+<center>
+<div>
+<!--<p><img src="1txt2.jpg"> <br style="line-height:6px ">-->
+              BioMx Consulting is a privately held independent research and consultation firm
+              with specific expertise in computational biomechanics. The BioMx Consulting principals
+              and technical staff are composed of engineers and scientists with
+              specific expertise in analysis, modeling and simulation of human
+              biomechanical and physiological responses to injury.</p>
+            <p><br>
+            </p>
+</div>
+</center>
+</center>
+
+ <footer>
+	  <a href="">Home</a> | <a href="ourwork.html">About Us</a>  | <a href="">Services</a>| <a href="">Clients</a>| <a href="">Profiles</a>| <a href="">Our Work</a>| <a href="">Contact Us</a><br/><br/>
+	   website design by <a href="apupp001@odu.edu">Anup kumar Puppala</a>
+    </footer>
+</body>
+</html>
